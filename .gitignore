@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# App runtime
+data.json.tmp
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Claude Code tooling
+.claude/
+
+# Generated snapshots (contain a full copy of your data)
+dashboard-snapshot.html
+dashboard-artifact.html

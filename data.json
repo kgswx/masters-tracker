@@ -1,0 +1,179 @@
+{
+  "profile": {
+    "metrics": [
+      {
+        "id": "gpa",
+        "label": "Bachelor GPA",
+        "value": ""
+      },
+      {
+        "id": "ielts",
+        "label": "English proficiency",
+        "value": ""
+      },
+      {
+        "id": "degree",
+        "label": "Bachelor degree",
+        "value": ""
+      }
+    ],
+    "referees": [
+      {
+        "id": "ref1",
+        "name": "",
+        "role": "",
+        "email": "",
+        "status": "tocontact",
+        "note": ""
+      },
+      {
+        "id": "ref2",
+        "name": "",
+        "role": "",
+        "email": "",
+        "status": "tocontact",
+        "note": ""
+      }
+    ],
+    "notes": ""
+  },
+  "sharedDocs": [
+    {
+      "id": "cv",
+      "name": "CV",
+      "status": "missing",
+      "path": "",
+      "note": ""
+    },
+    {
+      "id": "portfolio",
+      "name": "Portfolio",
+      "status": "missing",
+      "path": "",
+      "note": ""
+    },
+    {
+      "id": "transcript",
+      "name": "Bachelor transcript",
+      "status": "missing",
+      "path": "",
+      "note": ""
+    },
+    {
+      "id": "diploma",
+      "name": "Bachelor diploma",
+      "status": "missing",
+      "path": "",
+      "note": ""
+    }
+  ],
+  "courses": [
+    {
+      "id": "example-course",
+      "university": "Example University",
+      "programme": "MSc Example Programme",
+      "location": "City, Country",
+      "portalUrl": "https://example.edu/graduate/example-programme",
+      "status": "researching",
+      "deadlines": [
+        {
+          "id": "example-course-dl1",
+          "label": "Application deadline",
+          "date": "2027-01-15"
+        },
+        {
+          "id": "example-course-dl2",
+          "label": "Scholarship deadline",
+          "date": "2026-12-01"
+        }
+      ],
+      "fees": {
+        "application": "€100",
+        "tuition": "€18,000/yr"
+      },
+      "scholarships": [
+        {
+          "id": "example-course-s1",
+          "name": "Example Merit Scholarship",
+          "amount": "€5,000",
+          "deadline": "2026-12-01",
+          "status": "exploring",
+          "note": ""
+        }
+      ],
+      "requirements": [
+        {
+          "id": "example-course-r1",
+          "label": "Bachelor's degree in a relevant field",
+          "required": "2:1",
+          "metricId": "degree",
+          "manual": "unknown"
+        },
+        {
+          "id": "example-course-r2",
+          "label": "English language requirement",
+          "required": "IELTS 7.0",
+          "metricId": "ielts",
+          "manual": "unknown"
+        },
+        {
+          "id": "example-course-r3",
+          "label": "Portfolio of recent work",
+          "required": "",
+          "metricId": "",
+          "manual": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "id": "example-course-k1",
+          "label": "Course page",
+          "url": "https://example.edu/graduate/example-programme"
+        },
+        {
+          "id": "example-course-k2",
+          "label": "Fees and funding",
+          "url": "https://example.edu/fees"
+        }
+      ],
+      "docs": [
+        {
+          "id": "example-course-d1",
+          "name": "Personal statement",
+          "status": "missing",
+          "path": "",
+          "note": ""
+        },
+        {
+          "id": "example-course-d2",
+          "name": "References ×2",
+          "status": "missing",
+          "path": "",
+          "note": ""
+        }
+      ],
+      "sharedDocIds": [
+        "cv",
+        "portfolio",
+        "transcript",
+        "diploma"
+      ],
+      "contacts": [
+        {
+          "id": "example-course-c1",
+          "name": "Admissions office",
+          "role": "General enquiries",
+          "email": "admissions@example.edu"
+        }
+      ],
+      "log": [
+        {
+          "id": "example-course-l1",
+          "date": "2026-01-01",
+          "text": "Example entry. Delete this course once you have added your own."
+        }
+      ],
+      "notes": "This is a worked example showing every field the tracker supports. Delete it with the ✕ on the course page, or edit it in place to make it your first real course."
+    }
+  ]
+}
